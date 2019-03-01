@@ -7,6 +7,7 @@
 
     <!-- External CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" rel="stylesheet">
+    <script src="https://use.fontawesome.com/308be7df73.js"></script>
     
     <!-- Custom CSS -->
     <link href="css/portfolio.css" rel="stylesheet">
@@ -21,40 +22,38 @@
     <section id="clue">
       <div class="container">
         <h2 class="text-center">Together</h2>
-        <hr class="star-primary">
+        <a class="portfolio-link" href="#modal2" data-toggle="modal">
+          <hr class="star-primary">
+          </a>
         <div class="row">
             <p class="text-center">I'm really glad to share so many things with you. A love for games, logic, bad humour.
-              </br>I'm excited by the future we'll make together and what we will accomplish.
-              </br>You're my goofy partner in crime and together we can <strong>inspect</strong> what the future holds.
+              </br>We've shared some good memes and jokes. You should really <strong>take a look</strong> at how cute these ones are.
            </p>
         </div>
     <!-- This is where the link to another site would be but it isn't done yet-->
         <div class="row">
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+            <a class="portfolio-link" href="#modal1" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid" src="assets/cat_love.JPG" alt="">
             </a>
           </div>
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+            <a class="portfolio-link" href="#modal1" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid" src="assets/dog_love.JPG" alt="">
             </a>
           </div>
           <div class="col-sm-4 portfolio-item">
-            <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+            <a class="portfolio-link" href="#modal1" data-toggle="modal">
               <div class="caption">
                 <div class="caption-content">
-                  <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid" src="assets/pie_love.JPG" alt="">
@@ -64,28 +63,105 @@
       </div>
     </section>
        
-    <!-- About Section -->
-    <section class="success" id="about">
-      <div class="container">
-        <h2 class="text-center">About</h2>
-        <hr class="star-light">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <img class="img-fluid" src="assets/support.PNG" alt"">
+    
+    <!-- Portfolio Examples -->   
+    <div class="portfolio-modal modal fade" id="modal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
           </div>
-          <div class="col-lg-4 mr-auto">
-            <p>I'm still working on this clue</p>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>We can achieve automated gay luxury space communism</h2>
+                  <p class="text-center">I'm excited by the future we'll make together and what we will accomplish.
+              </br>You're my goofy partner in crime and together we can <strong>inspect</strong> what the future holds.
+           </p>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>   
     
-    <!-- Contact Section -->
-    <section id="contact">
-    </section>
+    <div class="portfolio-modal modal fade" id="modal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>Hint</h2>
+                  <hr class="star-primary">
+                  <p>There's lots of bad website designs out there. But I've still got things to improve myself so I can't <strong>comment</strong> on that.</p>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
-    
-    
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <h2>HeatWave Panic Game</h2>
+                  <hr class="star-primary">
+                  <img class="img-fluid" src="assets/heatWavePanicGame.PNG" alt="">
+                  <p>A game to see who can sell the most ice-cream to people on the beach. This project focused on creating balanced AI competitors for a fair gaming experience.</p>
+                  <p></p>
+                  <ul class="list-inline item-details">
+                    <li>For:
+                      <strong>
+                        Griffith
+                      </strong>
+                    </li>
+                    <li>Date:
+                      <strong>
+                        June 2016
+                      </strong>
+                    </li>
+                    <li>Tools:
+                      <strong>
+                        Unity, C#
+                      </strong>
+                    </li>
+                  </ul>
+                  <button class="btn btn-success" type="button" data-dismiss="modal">
+                    <i class="fa fa-times"></i>
+                    Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     
     
     
@@ -97,5 +173,23 @@
     <!-- Custom script -->
     <script src="js/portfolio.js"></script>
     
+
+    <!-- 
+    	
+                             .____.      _____         ......   .....
+            `"9Q@"'        .gQQQQQQg, .jQQQQQQQg.     `"MQQ"`  `"MP"`
+              .QF         jQQQQQQQQQQ_gQQQQQQQQQg       .Q#      .f
+              .QF         jQQyoutu.be/hwe1Tt5tVIM       .Q#      .f
+              .QF         `QQQQQQQQQQQQQQQQQQQQQP       .Q#      .f
+              .QF          `QQQQQQQQQQQQQQQQQQQF`       .Q#      .f
+              .QF           `9QQQQQQQQQQQQQQQM'         .Q#      .f
+              .QF             "QQQQQQQQQQQQQ@`          .Q#      .f
+              .QF              "MQQQQQQQQQQf            .Q#      .f
+              .QF                "QQQQQQQW'             .Q#      .f
+              .QF                 `QQQQQP`              `QQ.    .j'
+            ._jQg_,                `MQM'                 "9QgyygM'
+            ```````                  ^`                     ```
+    
+    -->
     </body>
 </html>
